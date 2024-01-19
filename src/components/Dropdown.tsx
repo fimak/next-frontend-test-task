@@ -43,7 +43,7 @@ const Dropdown = ({ options, width }: Props) => {
   return (
     <div className="relative">
       <div
-        className={`rounded w-[${width}px] p-[1px]`}
+        className={`rounded w-[240px] p-[1px]`}
         style={{ background: 'linear-gradient(to right, #54F4DF, #2AB6FD)' }}>
         <button
           className={`w-full rounded bg-[#202F34] text-gray-200 p-[9px] focus:outline-none`}
@@ -56,7 +56,7 @@ const Dropdown = ({ options, width }: Props) => {
       {isOpen && (
         <div
           ref={dropdownRef}
-          className={`absolute rounded w-[${width}px] mt-[6px] p-[1px] bg-[#263C43] z-10`}
+          className={`absolute rounded w-[240px] mt-[6px] p-[1px] bg-[#263C43] z-10`}
         >
           <div className={`w-full rounded bg-[#2B2C36] text-gray-200`}>
             {options.map((option) => (

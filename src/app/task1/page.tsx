@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <div className="w-full h-[100vh] flex items-center justify-center">
       <div>
-        <h1>Task1</h1>
+        <h1 className="py-4">Task1</h1>
         <div>
           <p>Array: {option.toString()}</p>
           <p>Result: {result.toString()}</p>

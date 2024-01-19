@@ -7,7 +7,7 @@ export default async function Page() {
   return (
     <div className="w-full min-h-[100vh] p-4">
       <div>
-        <h1 className="flex justify-center">Task3</h1>
+        <h1 className="flex justify-center py-4">Task3</h1>
         <ul className="space-y-2 px-[20px]">
           {games && games.map((game: Game) => (
             <li key={game.identifier} className="list-disc">
